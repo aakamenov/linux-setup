@@ -1,0 +1,29 @@
+background_opacity: 0.6
+
+window:
+  padding:
+    x: 15
+    y: 15
+    
+  decorations: none
+
+scrolling:
+  history: 10000
+  multiplier: 5
+
+colors:
+  search:
+    focused_match:
+      foreground: '#000000'
+      background: '#ef8645'
+
+key_bindings:
+  - { key: V, mods: Control, mode: ~Vi, action: Paste }
+  - { key: C, mods: Control, mode: ~Vi, action: Copy }
+  - { key: W, mods: Control, action: Quit }
+  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
+  - { key: S, mods: Control, mode: ~Search, action: SearchBackward }
+
+  #Search
+  - { key: Left, mode: Search|~Vi, action: SearchFocusNext }
+  - { key: Right, mode: Search|~Vi, action: SearchFocusPrevious }
