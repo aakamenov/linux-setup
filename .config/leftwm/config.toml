@@ -47,6 +47,11 @@ focus_new_windows = true
     modifier = ["modkey"]
     key = "f"
 
+    [[keybind]]
+    command = "ToggleFloating"
+    modifier = ["modkey", "Shift"]
+    key = "f"
+
 # Tags
 
     [[keybind]]
@@ -187,7 +192,7 @@ focus_new_windows = true
 
     [[keybind]]
     command = "Execute"
-    value = "thunar"
+    value = "dolphin"
     modifier = ["modkey", "Shift"]
     key = "Return"
 
@@ -199,17 +204,79 @@ focus_new_windows = true
 
     [[keybind]]
     command = "Execute"
-    value = "killall conky"
+    value = "rofi -show drun"
     modifier = ["modkey"]
-    key = "c"
+    key = "r"
+
+    [[keybind]]
+    command = "Execute"
+    value = "rofi-theme-selector"
+    modifier = ["modkey"]
+    key = "F12"
+
+# Multimedia
+
+    [[keybind]]
+    command = "Execute"
+    value = "amixer set Master 10%+"
+    modifier = []
+    key = "XF86AudioRaiseVolume"
+
+    [[keybind]]
+    command = "Execute"
+    value = "amixer set Master 10%-"
+    modifier = []
+    key = "XF86AudioLowerVolume"
+
+    [[keybind]]
+    command = "Execute"
+    value = "amixer -D pulse set Master 1+ toggle"
+    modifier = []
+    key = "XF86AudioMute"
+
+    [[keybind]]
+    command = "Execute"
+    value = "playerctl play-pause"
+    modifier = []
+    key = "XF86AudioPlay"
+
+    [[keybind]]
+    command = "Execute"
+    value = "playerctl next"
+    modifier = []
+    key = "XF86AudioNext"
+
+    [[keybind]]
+    command = "Execute"
+    value = "playerctl previous"
+    modifier = []
+    key = "XF86AudioPrev"
+
+    [[keybind]]
+    command = "Execute"
+    value = "playerctl stop"
+    modifier = []
+    key = "XF86AudioStop"
+
+    [[keybind]]
+    command = "Execute"
+    value = "xbacklight -inc 10"
+    modifier = []
+    key = "XF86MonBrightnessUp"
+
+    [[keybind]]
+    command = "Execute"
+    value = "xbacklight -dec 10"
+    modifier = []
+    key = "XF86MonBrightnessDown"
 
 # Misc
 
     [[keybind]]
     command = "Execute"
-    value = "arcolinux-logout"
-    modifier = ["modkey"]
-    key = "x"
+    value = "~/.config/leftwm/scripts/picom-toggle.sh"
+    modifier = ["Control", "Alt"]
+    key = "p"
 
     [[keybind]]
     command = "SoftReload"
