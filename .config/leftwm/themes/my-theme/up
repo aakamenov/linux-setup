@@ -8,6 +8,7 @@ if [ -f "/tmp/leftwm-theme-down" ]; then
 fi
 ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 picom --config $HOME/.config/leftwm/themes/current/picom.conf &> /dev/null &
 
 # Set the theme.toml config
