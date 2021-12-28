@@ -1,0 +1,131 @@
+configuration {
+    show-icons: true;
+}
+
+* {
+    white: #E5E4E2;
+    black: #2C2C2C;
+    orange: #FB8C00;
+    border-radius: 6px;
+
+    background-color: @black;
+    text-color: @white;
+}
+
+window {
+    border: 3px;
+    border-color: @white;
+    border-radius: @border-radius;
+    background-color: @black;
+    padding: 2px;
+}
+
+inputbar {
+    text-color: @white;
+    background-color: @black;
+    padding: 4px;
+}
+
+prompt {
+    text-color: inherit;
+}
+
+entry {
+    text-color: inherit;
+    placeholder: "Type to search";
+}
+
+num-rows {
+    text-color: inherit;
+}
+
+num-filtered-rows {
+    text-color: inherit;
+}
+
+case-indicator {
+    text-color: inherit;
+}
+
+listview {
+    fixed-height: 0;
+    padding: 2px;
+    scrollbar: false;
+}
+
+element {
+    background-color: @black;
+    border-radius: @border-radius;
+    padding: 8px 0px 8px 0px;
+}
+
+element.normal.normal {
+    background-color: @black;
+    text-color: @white;
+}
+element.normal.urgent {
+    background-color: @orange;
+    text-color: @black;
+}
+element.normal.active {
+    background-color: @white;
+    text-color: @dark;
+}
+
+element.alternate.normal {
+    background-color: @black;
+    text-color: @white;
+}
+element.alternate.urgent {
+    background-color: @orange;
+    text-color: @black;
+}
+element.alternate.active {
+    background-color: @white;
+    text-color: @dark;
+}
+
+element.selected.normal {
+    background-color: @white;
+    text-color: @dark;
+}
+element.selected.urgent {
+    background-color: @orange;
+    text-color: @black;
+}
+element.selected.active {
+    background-color: @white;
+    text-color: @dark;
+}
+
+element-text {
+    vertical-align: 0.5;
+    horizontal-align: 0;
+    highlight: None;
+}
+
+element-text.normal {
+    background-color: @black;
+    text-color: @white;
+}
+element-text.selected {
+    background-color: @white;
+    text-color: @black;
+}
+
+element-icon {
+    size: 30px;
+    padding: 0px 4px 0px 4px;
+}
+
+element-icon.normal {
+    background-color: @black;
+}
+
+element-icon.urgent {
+    background-color: @orange;
+}
+
+element-icon.selected {
+    background-color: @white;
+}
