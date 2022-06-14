@@ -3,7 +3,7 @@
 ## Dependencies
 
 ### Software
-- [picom](https://github.com/yshui/picom)
+- [picom](https://github.com/ibhagwan/picom)
 - [Polybar](https://polybar.github.io/)
 - [feh](https://github.com/derf/feh)
 - [playerctl](https://github.com/altdesktop/playerctl)
