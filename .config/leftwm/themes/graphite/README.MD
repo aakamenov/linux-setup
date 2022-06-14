@@ -1,4 +1,4 @@
-# Theme
+# Graphite LeftWM Theme
 
 ## Dependencies
 
