@@ -3,4 +3,4 @@ margin = [8, 8]
 
 default_border_color = "#E5E4E2"
 floating_border_color = "#E5E4E2"
-focused_border_color = "#FB8C00"
+focused_border_color = "#98D0CC"

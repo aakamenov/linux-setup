@@ -7,7 +7,7 @@ configuration {
 * {
     white: #E5E4E2;
     black: #2C2C2C;
-    orange: #FB8C00;
+    primary: #98D0CC;
     border-radius: 6px;
 
     background-color: @black;
@@ -66,7 +66,7 @@ element.normal.normal {
     text-color: @white;
 }
 element.normal.urgent {
-    background-color: @orange;
+    background-color: @primary;
     text-color: @black;
 }
 element.normal.active {
@@ -79,7 +79,7 @@ element.alternate.normal {
     text-color: @white;
 }
 element.alternate.urgent {
-    background-color: @orange;
+    background-color: @primary;
     text-color: @black;
 }
 element.alternate.active {
@@ -92,7 +92,7 @@ element.selected.normal {
     text-color: @dark;
 }
 element.selected.urgent {
-    background-color: @orange;
+    background-color: @primary;
     text-color: @black;
 }
 element.selected.active {
@@ -125,7 +125,7 @@ element-icon.normal {
 }
 
 element-icon.urgent {
-    background-color: @orange;
+    background-color: @primary;
 }
 
 element-icon.selected {
