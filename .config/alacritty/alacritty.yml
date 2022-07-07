@@ -1,11 +1,32 @@
-background_opacity: 0.8
+#shell:
+#  program: /usr/bin/nu
+
+font:
+  normal:
+    family: ShureTechMono Nerd Font
+    style: Regular
+
+  bold:
+    family: ShureTechMono Nerd Font
+    style: Bold
+
+  italic:
+    family: ShureTechMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: ShureTechMono Nerd Font
+    style: Bold Italic
+
+  size: 13.5
 
 window:
+  opacity: 0.8
   padding:
     x: 15
     y: 15
     
-  decorations: full
+  decorations: none
 
 scrolling:
   history: 10000
@@ -42,9 +63,12 @@ colors:
     white:   '#ffffff'
 
 key_bindings:
-  - { key: W, mods: Control, action: Quit }
   - { key: N, mods: Control|Shift, action: SpawnNewInstance }
   - { key: S, mods: Control, mode: ~Search, action: SearchBackward }
+  - { key: Up, mods: Control, mode: ~Alt, action: ScrollPageUp }
+  - { key: Down, mods: Control, mode: ~Alt, action: ScrollPageDown }
+  - { key: Up, mods: Alt, mode: ~Alt, action: ScrollHalfPageUp }
+  - { key: Down, mods: Alt, mode: ~Alt, action: ScrollHalfPageDown }
 
   #Search
   - { key: Left, mode: Search|~Vi, action: SearchFocusNext }
