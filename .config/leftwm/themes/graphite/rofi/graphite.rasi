@@ -71,7 +71,7 @@ element.normal.urgent {
 }
 element.normal.active {
     background-color: @white;
-    text-color: @dark;
+    text-color: @black;
 }
 
 element.alternate.normal {
@@ -84,12 +84,12 @@ element.alternate.urgent {
 }
 element.alternate.active {
     background-color: @white;
-    text-color: @dark;
+    text-color: @black;
 }
 
 element.selected.normal {
     background-color: @white;
-    text-color: @dark;
+    text-color: @black;
 }
 element.selected.urgent {
     background-color: @primary;
@@ -97,7 +97,7 @@ element.selected.urgent {
 }
 element.selected.active {
     background-color: @white;
-    text-color: @dark;
+    text-color: @black;
 }
 
 element-text {
