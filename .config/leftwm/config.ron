@@ -36,7 +36,7 @@
     insert_behavior: Bottom,
     scratchpad: [],
     window_rules: [
-        (window_class: "pavucontrol", spawn_floating: true),
+        (window_class: "Pavucontrol", spawn_floating: true),
         (window_title: "Picture-in-Picture", spawn_floating: true, spawn_sticky: true),
         (window_class: "file-roller", spawn_floating: true),
     ],
