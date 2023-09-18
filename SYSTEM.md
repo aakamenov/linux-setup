@@ -2,7 +2,9 @@
 
 ## Arch Linux packages
 
-### Official
+### Essential
+
+#### Official
 
   - [wezterm](https://archlinux.org/packages/extra/x86_64/wezterm/)
   - [bottom](https://archlinux.org/packages/extra/x86_64/bottom/)
@@ -14,19 +16,39 @@
     - [thunar-archive-plugin](https://archlinux.org/packages/extra/x86_64/thunar-archive-plugin/)
     - [thunar-volman](https://archlinux.org/packages/extra/x86_64/thunar-volman/) (Removable device support)
   - [ffmpegthumbnailer](https://archlinux.org/packages/extra/x86_64/ffmpegthumbnailer/)
-  - [gitui](https://archlinux.org/packages/extra/x86_64/gitui/)
   - [keepassxc](https://archlinux.org/packages/extra/x86_64/keepassxc/)
   - [mpv](https://archlinux.org/packages/extra/x86_64/mpv/)
   - [ristretto](https://archlinux.org/packages/extra/x86_64/ristretto/)
-  - [rust-analyzer](https://archlinux.org/packages/extra/x86_64/rust-analyzer/)
-  - [rustup](https://archlinux.org/packages/extra/x86_64/rustup/)
   - [starship](https://archlinux.org/packages/extra/x86_64/starship/)
     - Installation: https://starship.rs/guide/#step-2-set-up-your-shell-to-use-starship
 
-### AUR
+#### AUR
 
   - [musikcube](https://aur.archlinux.org/packages/musikcube)
+
+### Programming
+
+#### Official
+
+  - [gitui](https://archlinux.org/packages/extra/x86_64/gitui/)
+  - [rust-analyzer](https://archlinux.org/packages/extra/x86_64/rust-analyzer/)
+  - [rustup](https://archlinux.org/packages/extra/x86_64/rustup/)
+
+#### AUR
+
   - [sublime-text-4](https://aur.archlinux.org/packages/sublime-text-4)
+
+### Utilities
+
+#### Official
+  
+  - [qt5ct](https://archlinux.org/packages/extra/x86_64/qt5ct/)
+  - [qt6ct](https://archlinux.org/packages/extra/x86_64/qt6ct/)
+  - [qbittorrent](https://archlinux.org/packages/extra/x86_64/qbittorrent/)
+
+#### AUR
+
+  - [nwg-look](https://aur.archlinux.org/packages/nwg-look)
 
 ## Fonts
 
