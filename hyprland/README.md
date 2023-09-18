@@ -1,5 +1,9 @@
 # Hyprland Theme
 
+## Color Scheme
+
+ - https://coolors.co/232f2e-293635-aca695-d9ddde-ff8000-70d900-ff4c57-00dbd7-ff64a2
+
 ## Dependencies
 
 ### Official
@@ -10,9 +14,9 @@
  - [grim](https://archlinux.org/packages/extra/x86_64/grim/)
  - [slurp](https://archlinux.org/packages/extra/x86_64/slurp/)
  - [wl-clipboard](https://archlinux.org/packages/extra/x86_64/wl-clipboard/)
+ - [wofi](https://archlinux.org/packages/extra/x86_64/wofi/)
 
 ### AUR
- - [tofi](https://aur.archlinux.org/packages/tofi)
  - [hyprpicker-git](https://aur.archlinux.org/packages/hyprpicker-git)
 
 ### Other
