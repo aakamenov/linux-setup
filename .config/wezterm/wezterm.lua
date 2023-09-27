@@ -12,12 +12,12 @@ end
 
 -- This is where you actually apply your config choices
 
-config.font = wezterm.font('ShureTechMono Nerd Font', { weight = 'Regular', italic = false  })
+config.font = wezterm.font("ShureTechMono Nerd Font Mono", {weight="Regular", stretch="Normal", style="Normal"})
 config.font_size = 14.0
 config.color_scheme = 'Ayu Mirage'
 config.window_background_opacity = 0.3
 config.default_prog = {"/bin/bash"}
-config.warn_about_missing_glyphs = true
+config.warn_about_missing_glyphs = false
 
 -- and finally, return the configuration to wezterm
 return config

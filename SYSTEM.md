@@ -44,6 +44,7 @@
   
   - [qt5ct](https://archlinux.org/packages/extra/x86_64/qt5ct/)
   - [qt6ct](https://archlinux.org/packages/extra/x86_64/qt6ct/)
+  - [kvantum](https://archlinux.org/packages/extra/x86_64/kvantum/)
   - [qbittorrent](https://archlinux.org/packages/extra/x86_64/qbittorrent/)
 
 #### AUR

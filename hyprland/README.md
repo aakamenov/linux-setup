@@ -21,3 +21,15 @@
 
 ### Other
  - [mibar](https://github.com/aakamenov/mibar)
+
+## Themes
+
+### GTK3
+
+ - [adw-gtk3](https://aur.archlinux.org/packages/adw-gtk3)
+ - [Kora icons](https://www.gnome-look.org/p/1256209)
+
+### QT
+
+ - [Orchis](https://store.kde.org/p/1458909)
+
