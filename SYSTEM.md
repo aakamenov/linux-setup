@@ -25,6 +25,7 @@
 #### AUR
 
   - [musikcube](https://aur.archlinux.org/packages/musikcube)
+  - [mullvad-vpn-bin](https://aur.archlinux.org/packages/mullvad-vpn-bin)
 
 ### Programming
 
