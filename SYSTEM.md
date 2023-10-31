@@ -7,7 +7,7 @@
 #### Official
 
   - [wezterm](https://archlinux.org/packages/extra/x86_64/wezterm/)
-  - [bottom](https://archlinux.org/packages/extra/x86_64/bottom/)
+  - [btop](https://archlinux.org/packages/extra/x86_64/btop/)
   - [discord](https://archlinux.org/packages/extra/x86_64/discord/)
   - [file-roller](https://archlinux.org/packages/extra/x86_64/file-roller/)
   - [Thunar](https://archlinux.org/packages/extra/x86_64/thunar/)
