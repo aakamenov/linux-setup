@@ -14,7 +14,7 @@
  - [grim](https://archlinux.org/packages/extra/x86_64/grim/)
  - [slurp](https://archlinux.org/packages/extra/x86_64/slurp/)
  - [wl-clipboard](https://archlinux.org/packages/extra/x86_64/wl-clipboard/)
- - [wofi](https://archlinux.org/packages/extra/x86_64/wofi/)
+ - [fuzzel](https://archlinux.org/packages/extra/x86_64/fuzzel/)
 
 ### AUR
  - [hyprpicker-git](https://aur.archlinux.org/packages/hyprpicker-git)
@@ -32,4 +32,3 @@
 ### QT
 
  - [Orchis](https://store.kde.org/p/1458909)
-
