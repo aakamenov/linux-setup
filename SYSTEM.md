@@ -8,7 +8,6 @@
 
   - [wezterm](https://archlinux.org/packages/extra/x86_64/wezterm/)
   - [btop](https://archlinux.org/packages/extra/x86_64/btop/)
-  - [discord](https://archlinux.org/packages/extra/x86_64/discord/)
   - [file-roller](https://archlinux.org/packages/extra/x86_64/file-roller/)
   - [Thunar](https://archlinux.org/packages/extra/x86_64/thunar/)
     - [gvfs](https://archlinux.org/packages/extra/x86_64/gvfs/) (Android filesystem support)
@@ -24,6 +23,7 @@
 
 #### AUR
 
+  - [vesktop](https://aur.archlinux.org/packages/vesktop-bin)
   - [musikcube](https://aur.archlinux.org/packages/musikcube)
   - [mullvad-vpn-bin](https://aur.archlinux.org/packages/mullvad-vpn-bin)
 
