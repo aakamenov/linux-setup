@@ -6,7 +6,7 @@
 
 #### Official
 
-  - [wezterm](https://archlinux.org/packages/extra/x86_64/wezterm/)
+  - [alacritty](https://archlinux.org/packages/extra/x86_64/alacritty/)
   - [btop](https://archlinux.org/packages/extra/x86_64/btop/)
   - [file-roller](https://archlinux.org/packages/extra/x86_64/file-roller/)
   - [Thunar](https://archlinux.org/packages/extra/x86_64/thunar/)
@@ -22,7 +22,7 @@
     - Installation: https://starship.rs/guide/#step-2-set-up-your-shell-to-use-starship
 
 #### AUR
-
+  - [focus](https://aur.archlinux.org/packages/focus-bin)
   - [vesktop](https://aur.archlinux.org/packages/vesktop-bin)
   - [musikcube](https://aur.archlinux.org/packages/musikcube)
   - [mullvad-vpn-bin](https://aur.archlinux.org/packages/mullvad-vpn-bin)
@@ -53,6 +53,10 @@
   - [nwg-look](https://aur.archlinux.org/packages/nwg-look)
 
 ## Fonts
+
+### AUR
+
+  - [ProFont](https://archlinux.org/packages/extra/any/ttf-profont-nerd/)
 
 ### [Nerd](https://www.nerdfonts.com/font-downloads) fonts:
   - SauceCodePro
