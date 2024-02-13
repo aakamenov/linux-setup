@@ -8,13 +8,13 @@
 
 ### Official
  - [hyprland](https://archlinux.org/packages/extra/x86_64/hyprland/)
- - [hyprpaper](https://archlinux.org/packages/extra/x86_64/hyprpaper/)
  - [greetd](https://archlinux.org/packages/extra/x86_64/greetd/)
  - [mako](https://archlinux.org/packages/extra/x86_64/mako/)
  - [grim](https://archlinux.org/packages/extra/x86_64/grim/)
  - [slurp](https://archlinux.org/packages/extra/x86_64/slurp/)
  - [wl-clipboard](https://archlinux.org/packages/extra/x86_64/wl-clipboard/)
  - [fuzzel](https://archlinux.org/packages/extra/x86_64/fuzzel/)
+ - [swaybg](https://archlinux.org/packages/extra/x86_64/swaybg/)
 
 ### AUR
  - [hyprpicker-git](https://aur.archlinux.org/packages/hyprpicker-git)
