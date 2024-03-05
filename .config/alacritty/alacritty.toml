@@ -54,7 +54,7 @@ mods = "Control|Shift"
 action = "SearchBackward"
 key = "S"
 mode = "~Search"
-mods = "Control"
+mods = "Control|Shift"
 
 [[keyboard.bindings]]
 action = "ScrollPageUp"
