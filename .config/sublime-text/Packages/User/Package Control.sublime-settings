@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Package Control",
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ayu",
+		"Debugger",
+		"Guna",
+		"LSP",
+		"LSP-rust-analyzer",
+		"MarkdownPreview",
+		"Package Control",
+	],
+}

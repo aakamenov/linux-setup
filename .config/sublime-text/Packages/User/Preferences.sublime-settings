@@ -1,0 +1,44 @@
+{
+	"ignored_packages":
+	[
+		"Package Control",
+		"Vintage",
+	],
+	"theme": "Guna.sublime-theme",
+	"font_face": "ProFontWindows Nerd Font Mono",
+	"rulers": [[150, "solid"]],
+	"translate_tabs_to_spaces": true,
+	"caret_style": "phase",
+	"caret_extra_top": 2,
+	"caret_extra_bottom": 2,
+	"hardware_acceleration": "open_gl",
+	"font_size": 16,
+	"index_files": false,
+	"color_scheme": "Guna.sublime-color-scheme",
+	/*"gnc_h17": true,*/
+	/*"gnc_m08": true,*/
+	/*"gnc_w5m13": true,*/
+	"gn_hide_tab_dropdown": true,
+	"gn_overlay_scroll_bars": true,
+	"gn_sidebar_box": true,
+	"gn_title_bar": true,
+	/*"gnc_001": false,*/
+	/*"gnc_002": true,*/
+	"gnwidg1": true,
+	"gnwidgo": true,
+	/*"gnc_h17": true,*/
+	/*"gnc_m09": true,*/
+	/*"gnc_w5m13": true,*/
+	/*"gnc_h17": true,*/
+	/*"gnc_m08": true,*/
+	/*"gnc_w5m14": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnc_w5m15": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_002": false,*/
+	/*"gnc_m03": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_h19": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnc_w6m13": true,*/
+}
