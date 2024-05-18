@@ -10,6 +10,8 @@ use once_cell::unsync::Lazy;
 pub fn append(path: impl AsRef<Path>, contents: &[u8]) {
     dir_create_if_not_exists(path.as_ref());
 
+    println!("Appending to {}", path.as_ref().to_string_lossy());
+
     match OpenOptions::new().create(true).append(true).open(&path) {
         Ok(mut file) => if let Err(err) = file.write_all(contents) {
             panic!("Error appending to file {}: {err}", path.as_ref().to_string_lossy())
@@ -22,18 +24,26 @@ pub fn append(path: impl AsRef<Path>, contents: &[u8]) {
 pub fn copy(from: impl AsRef<Path>, to: impl AsRef<Path>) {
     dir_create_if_not_exists(to.as_ref());
 
+    println!(
+        "Copying {} to {}",
+        from.as_ref().to_string_lossy(),
+        to.as_ref().to_string_lossy()
+    );
+
     if let Err(err) = fs::copy(&from, &to) {
         panic!(
             "Error copying {} to {}: {err}",
             from.as_ref().to_string_lossy(),
             to.as_ref().to_string_lossy()
-        )
+        );
     }
 }
 
 #[inline]
 pub fn write(path: impl AsRef<Path>, contents: &[u8]) {
     dir_create_if_not_exists(path.as_ref());
+
+    println!("Writing to {}", path.as_ref().to_string_lossy());
 
     match OpenOptions::new().create(true).write(true).open(&path) {
         Ok(mut file) => if let Err(err) = file.write_all(contents) {
@@ -47,6 +57,8 @@ pub fn remove(path: impl AsRef<Path>) {
     if !path.as_ref().exists() {
         return;
     }
+
+    println!("Removing {}", path.as_ref().to_string_lossy());
 
     if let Err(err) = fs::remove_file(&path) {
         panic!("Error removing file {}: {err}", path.as_ref().to_string_lossy());
