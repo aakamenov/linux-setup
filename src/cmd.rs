@@ -36,7 +36,7 @@ pub fn read(program: &'static str, args: &[&str]) -> String {
             }
         }
         Err(err) => {
-            print_err(err, program, args);
+            panic_err(err, program, args);
 
             String::new()
         }
@@ -52,13 +52,13 @@ fn handle(result: io::Result<Child>, program: &'static str, args: &[&str]) {
                     std::str::from_utf8(&out.stderr).unwrap_or_default()
                 );
             }
-            Err(err) => print_err(err, program, args)
+            Err(err) => panic_err(err, program, args)
         }
-        Err(err) => print_err(err, program, args)
+        Err(err) => panic_err(err, program, args)
     }
 }
 
 #[inline]
-fn print_err(err: io::Error, program: &'static str, args: &[&str]) {
-    eprintln!("{program} {} error: {}", args.join(" "), err.to_string());
+fn panic_err(err: io::Error, program: &'static str, args: &[&str]) {
+    panic!("{program} {} error: {}", args.join(" "), err.to_string());
 }
