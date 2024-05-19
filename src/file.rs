@@ -79,11 +79,19 @@ pub fn current_dir() -> PathBuf {
 
 #[inline]
 pub fn dir_create_if_not_exists(path: impl AsRef<Path>) {
-    if !path.as_ref().exists() {
-        if let Some(dir) = path.as_ref().parent() {
-            if let Err(err) = fs::create_dir_all(&dir) {
-                panic!("Failed to create directory {}: {err}", dir.to_string_lossy());
+    let path = path.as_ref();
+
+    if path.exists() {
+        return;
+    }
+
+    if path.extension().is_some() {
+        if let Some(parent) = path.parent() {
+            if let Err(err) = fs::create_dir_all(&parent) {
+                panic!("Failed to create directory {}: {err}", parent.to_string_lossy());
             }
         }
+    } else if let Err(err) = fs::create_dir_all(&path) {
+        panic!("Failed to create directory {}: {err}", path.to_string_lossy());
     }
 }
