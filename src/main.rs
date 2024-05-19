@@ -236,6 +236,8 @@ fn install_nerd_fonts(names: &[&'static str]) {
                 file::write(archive.as_path(), &resp.bytes);
 
                 let from = archive.as_path().to_str().unwrap();
+                
+                file::dir_create_if_not_exists(&dest_dir);
                 cmd::run("tar", &["-xf", from, "-C", &dest_dir]);
 
                 file::remove(archive.as_path());
