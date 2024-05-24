@@ -107,10 +107,9 @@ fn install_hyprland_desktop() {
         format!("{}/fuzzel/fuzzel.ini", &*CONFIG_DIR)
     );
 
-    file::copy(
-        ".config/mako/config",
-        format!("{}/mako/config", &*CONFIG_DIR)
-    );
+    let path = format!("{}/mako/", &*CONFIG_DIR);
+    fs::create_dir_all(&path).unwrap();
+    fs::copy(".config/mako/config", format!("{}/config", path)).unwrap();
 
     file::copy(
         ".config/hypr/gamemode.sh",
