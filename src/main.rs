@@ -74,6 +74,10 @@ fn setup(dev_only: bool) {
     yay::install("qt6ct");
     yay::install("kvantum");
 
+    // WAYLAND
+    pacman::install("qt5-wayland");
+    pacman::install("qt6-wayland");
+
     if dev_only {
         return;
     }
