@@ -78,6 +78,11 @@ fn setup(dev_only: bool) {
     pacman::install("qt5-wayland");
     pacman::install("qt6-wayland");
 
+    file::copy(
+        ".config/electron-flags.conf",
+        format!("{}/electron-flags.conf", &*CONFIG_DIR)
+    );
+
     if dev_only {
         return;
     }
@@ -239,7 +244,7 @@ fn install_nerd_fonts(names: &[&'static str]) {
                 file::write(archive.as_path(), &resp.bytes);
 
                 let from = archive.as_path().to_str().unwrap();
-                
+
                 file::dir_create_if_not_exists(&dest_dir);
                 cmd::run("tar", &["-xf", from, "-C", &dest_dir]);
 
