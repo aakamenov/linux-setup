@@ -50,7 +50,7 @@ fn setup(dev_only: bool) {
     install_hyprland_desktop();
 
     // CORE
-    install_alacritty();
+    install_foot();
     pacman::install("btop");
     pacman::install("file-roller");
     install_thunar();
@@ -97,7 +97,7 @@ fn setup(dev_only: bool) {
 }
 
 fn install_hyprland_desktop() {
-    // Color scheme: https://coolors.co/232f2e-293635-aca695-d9ddde-ff8000-70d900-ff4c57-00dbd7-ff64a2
+    // Color scheme: https://coolors.co/232f2e-293635-aca695-d9ddde-ff8000-70d900-ff4c57-00dbd7-ff64a2-fff126
     // Kora icons: https://www.gnome-look.org/p/1256209
     // Orchis: https://store.kde.org/p/1458909
 
@@ -173,12 +173,12 @@ user = "{USER}"
     cmd::run_privileged("mv", &[from, "/etc/greetd/config.toml"])
 }
 
-fn install_alacritty() {
-    pacman::install("alacritty");
+fn install_foot() {
+    pacman::install("foot");
 
     file::copy(
-        ".config/alacritty/alacritty.toml",
-        format!("{}/alacritty/alacritty.toml", &*CONFIG_DIR)
+        ".config/foot/foot.ini",
+        format!("{}/foot/foot.ini", &*CONFIG_DIR)
     );
 }
 
