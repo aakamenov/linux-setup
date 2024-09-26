@@ -181,8 +181,8 @@ Ctrl-Alt-ArrowRight         scroll_viewport_right
 
 Alt-V                       move_cursor_to_viewport_center
 
-{Shift}-Ctrl-ArrowUp        move_up_to_empty_line
-{Shift}-Ctrl-ArrowDown      move_down_to_empty_line
+Ctrl-ArrowUp                move_up_to_empty_line
+Ctrl-ArrowDown              move_down_to_empty_line
 
 Alt-Shift-I                 add_cursors_to_line_ends
 Alt-Shift-Ctrl-I            add_cursors_to_line_starts
@@ -202,8 +202,8 @@ Ctrl-PageDown               move_editor_to_the_right
 Ctrl-N                      create_new_file
 Ctrl-Shift-N                create_new_file_on_the_side
 
-Alt-Shift-ArrowUp           create_cursor_above
-Alt-Shift-ArrowDown         create_cursor_below
+Ctrl-Shift-ArrowUp          create_cursor_above
+Ctrl-Shift-ArrowDown        create_cursor_below
 Alt-A                       align_cursors
 
 Alt-Z                       toggle_line_wrap
